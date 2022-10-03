@@ -1,13 +1,43 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 870px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.app {
+    min-width: 870px;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./Fonts/GilroyRegular/normal_normal.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url(./Fonts/GilroyBold/normal_normal.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy Italic';
+    src: url(./Fonts/GilroyRegularItalic/italic_normal.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    src: url(./Fonts/GilroyExtraBold/normal_normal.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy Black';
+    src: url(./Fonts/GilroyBlack/normal_normal.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url(./Fonts/GilroyMedium/normal_normal.woff) format('truetype');
 }

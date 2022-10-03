@@ -1,0 +1,618 @@
+.intro-italic {
+    display: inline;
+    font-style: italic;
+}
+
+.main {
+    margin-top: 0;
+    min-width: 870px;
+    z-index: -1;
+}
+
+.Container {
+    padding-bottom: 0.5em;
+}
+
+.fresh-large {
+    height: 4.5em;
+}
+
+.fresh-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    position: relative;
+    top: 1.75em;
+}
+
+.preview {
+    font-family: 'Gilroy Bold';
+    font-size: 2em;
+    position: relative;
+    bottom: 0.7em;
+    padding-left: 0.3em;
+    margin-bottom: 0;
+}
+
+.intro-and-title.lib {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.main-blurb {
+    color: white;
+    font-family: 'Gilroy Medium';
+    font-size: 20px;
+    max-width: 35em;
+    margin-top: 0;
+}
+
+.sectionBar {
+    z-index: 100;
+    max-width: 100%;
+    min-width: 850px;
+}
+
+.top-span {
+    padding-bottom: 0.35em;
+}
+
+.leftColumn {
+    border-left: 2px solid rgb(0, 123, 124);
+    border-bottom: 2px solid rgb(0, 123, 124);
+    width: 46%;
+}
+
+.top-span.spacing {
+    padding-bottom: 0;
+}
+
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1em;
+}
+
+.keyHeader {
+    font-family: 'Gilroy Black';
+    font-size: 16px;
+    color: rgb(81, 82, 84);
+}
+
+.keyMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.keyItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.keyText {
+    font-family: 'Gilroy Medium';
+    font-size: 12px;
+    margin-top: 0.5em;
+    padding-left: 0.4em;
+}
+
+.intro-title {
+    font-family: 'Gilroy Bold';
+    margin-bottom: 0;
+    color: rgb(81, 82, 84);
+}
+
+.bottomLines {
+    position: relative;
+    bottom: 0.5em;
+}
+
+.bottomLines.noPic {
+    bottom: 0.25em;
+}
+
+.bottomLines.two {
+    bottom: 0.25em;
+}
+
+.bottomLines.extra {
+    bottom: 0.5em;
+}
+
+.bottomLines.extraTwo {
+    bottom: 0.75em;
+}
+
+.bottomLines.extraThree {
+    bottom: 0.5em;
+}
+
+.boldText {
+    font-family: 'Gilroy Extra Bold';
+    color: rgb(0, 109, 111);
+}
+
+.headerBar {
+    background-color: rgb(0, 123, 124);
+    color: white;
+    font-size: 1.1em;
+}
+
+.columnsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.mainColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.centerColumn {
+    border-left: 2px solid rgb(0, 123, 124);
+    border-bottom: 2px solid rgb(0, 123, 124);
+    border-right: 2px solid rgb(0, 123, 124);
+    width: 28%;
+}
+
+.rightColumn {
+    border-bottom: 2px solid rgb(0, 123, 124);
+    border-right: 2px solid rgb(0, 123, 124);
+    width: 28%;
+}
+
+.splitColumn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.leftSide {
+    border-left: 2px solid rgb(0, 123, 124);
+    border-bottom: 2px solid rgb(0, 123, 124);
+    border-right: 2px solid rgb(0, 123, 124);
+}
+
+.rightSide {
+    border-right: 2px solid rgb(0, 123, 124);
+    border-bottom: 2px solid rgb(0, 123, 124);
+}
+
+.inlineIcon {
+    display: inline;
+    height: 16pt;
+    position: relative;
+    top: 0.3em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+.inlineIcon.space {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.keyIcon {
+    height: 16pt;
+    position: relative;
+    top: 0.1em;
+    cursor: pointer;
+}
+
+.link {
+    cursor: pointer;
+    z-index: 100;
+}
+
+.columnHeader {
+    background-color: rgb(199, 233, 234);
+    color: rgb(3, 129, 138);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columnHeaderRight {
+    background-color: rgb(199, 233, 234);
+    color: rgb(3, 129, 138);
+}
+
+.columnHeaderMiddle {
+    background-color: rgb(199, 233, 234);
+    color: rgb(3, 129, 138);
+}
+
+.argsAndLex {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2em;
+    width: 100%;
+}
+
+.textsColumns {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.padding {
+    height: 3em;
+}
+
+.paddingSmall {
+    height: 0.5em;
+}
+
+.titleAuthor {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    max-width: 20em;
+}
+
+.argType {
+    margin-right: 0.3em;
+    margin-top: 0;
+    margin-bottom: 0.1em;
+}
+
+.author {
+    margin-bottom: 0;
+    margin-top: 0;
+    z-index: -1;
+}
+
+.titleAuthorLex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0em;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 0.25em;
+    width: 100%;
+    height: 15em;
+}
+
+.titleAuthorLex.tan {
+    background-color: rgb(247, 243, 228);
+}
+
+.skillCont.tan {
+    background-color: rgb(247, 243, 228);
+}
+
+.connectionsBlock.tan {
+    background-color: rgb(247, 243, 228);
+}
+
+li {
+    margin-bottom: 0em;
+    padding-bottom: 0.1em;
+}
+
+.linkIcon {
+    position: relative;
+    bottom: 0.1em;
+    height: 18pt;
+    padding-right: 0.6em;
+    cursor: pointer;
+}
+
+.linkIcon.pdf {
+    padding-left: 0;
+}
+
+.icons {
+    padding-top: 0.25em;
+    padding-left: 0em;
+    padding-right: 0;
+    display: flex;
+    text-align: left;
+    justify-content: flex-end;
+    width: 35%;
+}
+
+.icons.one {
+    margin-left: 4.5em;
+}
+
+.icons.digitalLibrary.one {
+    margin-left: 6.5em;
+}
+
+.digitalLibraryIntro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyContainer.digitalLib {
+    padding-top: 1em;
+}
+
+.keyContainer {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+.intro.digLibrary {
+    padding-left: 0;
+}
+
+.icons.poetry {
+    padding-right: 1em;
+}
+/* breakpoints */
+
+.columnHeaderText {
+    font-size: 18px;
+    padding-bottom: 0.9em;
+    padding-top: 0.75em;
+    padding-right: 0.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 6pt;
+}
+
+.columnHeaderTextRight {
+    font-size: 18px;
+    padding-bottom: 0.125em;
+    color: rgb(0, 109, 111);
+    font-family: 'Gilroy Bold';
+    padding-left: 6pt;
+    padding-top: 0.1em;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.freshLitIcon {
+    height: 2em;
+    padding-left: 0.5em;
+}
+
+.mainTitle {
+    padding-left: 0;
+    font-size: 2.33em;
+    padding-top: 2em;
+    text-align: left;
+    color: white;
+    font-family: 'Gilroy Black';
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 0.25em;
+}
+
+.searches {
+    background-color: rgb(199, 233, 234);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding-right: 3em;
+}
+
+.icons {
+    display: flex;
+    flex-direction: horizontal;
+    padding-right: 1em;
+}
+.linkIcon.pdf {
+    padding-left: 0;
+}
+
+.titleSection {
+    padding-left: 7em;
+    background-color: rgb(0, 123, 124);
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+}
+
+.intro {
+    margin-left: 0;
+    color: rgb(81, 82, 84);
+    display: block;
+    flex-direction: column;
+    font-family: 'Gilroy Medium';
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    max-width: 55em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-align: left;
+    line-height: 1.5;
+    z-index: -1;
+}
+
+.typeHeader {
+    font-size: 18px;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+    color: white;
+    font-family: 'Gilroy Extra Bold';
+    padding-left: 6pt;
+    padding-right: 0.5em;
+}
+
+.byWho {
+    padding-left: 6pt;
+}
+
+.intro-and-title {
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lexiContainer {
+    padding-right: 0.5em;
+    text-align: right;
+}
+
+.skillCont {
+    height: 15em;
+    position: relative;
+    z-index: -1;
+    padding-top: 30px;
+    padding-bottom: 0.25em;
+}
+
+.connectionsBlock {
+    height: 15em;
+    position: relative;
+    z-index: -1;
+    padding-right: 0.5em;
+    padding-left: 0.6em;
+    padding-bottom: 0.25em;
+    padding-top: 30px;
+}
+
+.skills {
+    padding-left: 2.25em;
+    font-size: 16px;
+    color: rgb(81, 82, 84);
+    font-family: 'Gilroy Medium';
+    margin: 0;
+    padding-right: 0.25em;
+}
+
+.connection {
+    font-size: 16px;
+    color: rgb(81, 82, 84);
+    font-family: 'Gilroy Medium';
+    margin-bottom: 0.25em;
+    margin-top: 0;
+}
+
+.lexi {
+    font-size: 16px;
+    padding-top: 0;
+    color: rgb(0, 123, 124);
+    font-family: 'Gilroy Bold';
+}
+
+.titles {
+    font-size: 16px;
+    padding-top: 0;
+    color: rgb(81, 82, 84);
+    font-family: 'Gilroy Bold';
+    padding-left: 6pt;
+    padding-right: 0.75em;
+}
+
+.byWho {
+    font-size: 16px;
+    color: rgb(81, 82, 84);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gilroy Medium';
+    margin-top: 0.25em;
+    padding-left: 6pt;
+}
+
+.argumentSection {
+    padding-left: 7em;
+    padding-right: 7em;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 1em auto;
+}
+
+@media (min-width: 923) {
+    .icons.poetry {
+        padding-right: 4em;
+    }
+}
+
+@media (min-width: 978px) {
+    .introContainer {
+        display: flex;
+    }
+}
+
+@media (min-width: 1166px) {
+    .columnHeaderTextRight {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+    .titleAuthorLex {
+        height: 12em;
+    }
+
+    .skillCont {
+        height: 12em;
+    }
+
+    .connectionsBlock {
+        height: 12em;
+    }
+}
+
+@media (min-width: 1195) {
+    .icons {
+        padding-right: 4.5em;
+    }
+}
+
+@media (min-width: 1305px) {
+    .byWho {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titleSection {
+        padding-left: 9em;
+    }
+
+    .argumentSection {
+        padding-left: 9em;
+        padding-right: 9em;
+    }
+
+    .intro-and-title {
+        padding-right: 9em;
+        padding-left: 9em;
+    }
+
+    .skills .mainTitle {
+        margin-left: 0;
+        padding-top: 1.5em;
+    }
+}
+
+@media (min-width: 1380px) {
+    .icons.digitalLibrary {
+        padding-right: 1em;
+    }
+    .connectionsBlock {
+        height: 10em;
+    }
+    .skillCont {
+        height: 10em;
+    }
+    .titleAuthorLex {
+        height: 10em;
+    }
+}
+
+@media (min-width: 1594px) {
+    .connectionsBlock {
+        height: 7em;
+    }
+    .skillCont {
+        height: 7em;
+    }
+    .titleAuthorLex {
+        height: 7em;
+    }
+}

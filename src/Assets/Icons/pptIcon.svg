@@ -1,0 +1,21 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 13.1 13.1" style="enable-background:new 0 0 13.1 13.1" xml:space="preserve">
+  <style>
+    .st1,.st3{fill:none;stroke:#000;stroke-width:.25}.st1{clip-path:url(#SVGID_2_)}.st3{stroke-linecap:round}
+  </style>
+  <switch>
+    <g>
+      <circle cx="6.54" cy="6.57" r="6.5" style="fill:#00babe"/>
+      <defs>
+        <path id="SVGID_1_" d="M2.15 3.28h8.78v6.56H2.15z"/>
+      </defs>
+      <clipPath id="SVGID_2_">
+        <use xlink:href="#SVGID_1_" style="overflow:visible"/>
+      </clipPath>
+      <path class="st1" d="M2.24 3.72v6l1.62-.51h5.28l1.69.51v-6c-.55-.12-1.11-.23-1.66-.35H3.88c-.54.12-1.09.24-1.64.35zM3.8 3.33v5.89M9.24 3.33v5.89"/>
+      <path style="fill:none;stroke:#000;stroke-width:.25" d="M6.89 5.33h1.58V8.4H6.89z"/>
+      <path d="M4.48 4.11h4.1v.54h-4.1zM2.77 4.09v2.24l.53-.23V3.95z"/>
+      <path class="st3" d="M4.62 5.37h1.79M4.62 6.19h1.79M4.62 6.99h.79"/>
+      <path d="M9.74 7v1.86l.59.16V7.18z"/>
+    </g>
+  </switch>
+</svg>

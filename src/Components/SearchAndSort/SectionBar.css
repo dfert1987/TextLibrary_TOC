@@ -1,0 +1,70 @@
+.choiceButtonContainer {
+    margin-right: 1em;
+}
+
+.barText {
+    color: rgb(3, 129, 138);
+    font-size: 20px;
+    margin-bottom: 0.25em;
+    margin-left: 2em;
+    margin-top: 0;
+}
+
+.navButton:hover {
+    color: white;
+}
+
+.titleAndButtons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchInputs {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5em;
+}
+
+.formCont {
+    display: flex;
+    flex-direction: row;
+}
+
+.barBanner {
+    padding-left: 7em;
+    width: 100%;
+    margin: 0;
+    min-width: 1000px;
+}
+
+.navButton {
+    font-size: 0.75em;
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    padding-right: 3em;
+}
+
+.choicesContainer {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    font-family: 'Gilroy Extra Bold';
+    list-style: none;
+    margin: 0;
+    padding-right: 1em;
+    justify-content: flex-start;
+}
+
+@media (min-width: 1305px) {
+    .choicesContainer {
+        font-size: 1.5em;
+    }
+
+    .barBanner {
+        padding-left: 9em;
+    }
+}

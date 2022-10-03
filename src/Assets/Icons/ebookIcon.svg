@@ -1,0 +1,13 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 13.1 13.1" style="enable-background:new 0 0 13.1 13.1" xml:space="preserve">
+  <style>
+    .st1,.st2{fill:none;stroke:#000;stroke-width:.25}.st2{stroke-linecap:round}
+  </style>
+  <switch>
+    <g>
+      <circle cx="6.57" cy="6.54" r="6.5" style="fill:#f37167"/>
+      <path class="st1" d="M10.16 11.02V2.05H4.04c-.59 0-1.07.48-1.07 1.07v6.84c0 .59.48 1.07 1.07 1.07H10.16z"/>
+      <path class="st1" d="M10.16 9.2H4.02c-.43 0-.81.23-1.02.58"/>
+      <path class="st2" d="M4.2 3.23v5.89M10.13 10.08H4.16"/>
+    </g>
+  </switch>
+</svg>
